@@ -12,3 +12,6 @@ ports:
   - port: 3001
     onOpen: ignore  
     visibility: public
+  - port: 27017
+    onOpen: ignore  
+    visibility: private
